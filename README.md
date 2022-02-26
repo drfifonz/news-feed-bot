@@ -1,1 +1,1 @@
-# news-feed-bot
+# News feed bot
