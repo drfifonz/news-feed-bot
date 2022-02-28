@@ -1,5 +1,5 @@
 appdirs==1.4.4
-Flask=2.0.2
+Flask==2.0.2
 black==19.10b0
 certifi==2021.10.8
 charset-normalizer==2.0.12
