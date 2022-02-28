@@ -1,1 +1,1 @@
-web: python src/messenger_bot.py
+worker: python src/messenger_bot.py
