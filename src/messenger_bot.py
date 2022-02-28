@@ -42,5 +42,5 @@ def webhook():
 
 
 if __name__ == "__main__":
-    # app.debug = True  # uncomment for debugging
+    app.debug = True  # uncomment for debugging
     app.run()
