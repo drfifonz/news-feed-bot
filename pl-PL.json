@@ -1,0 +1,24 @@
+{
+    "commands":[
+        {
+            "input": "siema",
+            "output":" co tam",
+            "type": "answear"
+        },
+        {
+            "input": "kurwa",
+            "output":" papież by tak nie powiedzial",
+            "type": "answear"
+        },
+        {
+            "input": "zrob go bardziej zoltego",
+            "output":"Tak nie można to ojciec święty",
+            "type": "answear"
+        },
+        {
+            "input": "2137",
+            "output":"Pora spać",
+            "type": "answear"
+        }
+    ]
+}
