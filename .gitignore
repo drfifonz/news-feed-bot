@@ -1,5 +1,3 @@
 .vscode/*
-.env
 __pycache__
-tokens.py
 test.py

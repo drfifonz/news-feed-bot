@@ -1,6 +1,6 @@
 import json
 
-DEFINED_COMMANDS_PATH = "pl-PL.json"
+DEFINED_COMMANDS_PATH = "data/commands.json"
 
 BOT_COMMANDS = "commands"
 USER_TO_BOT_INPUT = "input"

@@ -1,1 +1,1 @@
-web: python src/messenger_bot.py
+web: gunicorn messenger_bot:app

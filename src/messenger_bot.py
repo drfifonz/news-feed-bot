@@ -9,9 +9,9 @@ from bot_functions import MessengerBot
 
 load_dotenv()
 
-# FB_API_URL = "https://graph.facebook.com/v2.6/me/messages"
-PAGE_ACCESS_TOKEN = os.environ.get("messenger_bot_page_access_token")
-VERIFY_TOKEN = os.environ.get("user_verify_token")
+# FB_API_URL = "https://graph.facebook.com/v13.0/me/messages"
+PAGE_ACCESS_TOKEN = os.environ.get("MESSENGER_BOT_PAGE_ACCESS_TOKEN")
+VERIFY_TOKEN = os.environ.get("USER_VERIFY_TOKEN")
 
 app = Flask(__name__)
 bot = Bot(PAGE_ACCESS_TOKEN)
