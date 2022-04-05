@@ -1,0 +1,29 @@
+{
+    "commands":[
+        {
+            "input": "test",
+            "output":"testing",
+            "type": "answear"
+        },
+        {
+            "input": "help",
+            "output":"Avalible functions: \n test \n start \n sup? \n 12",
+            "type": "answear"
+        },
+        {
+            "input": "start",
+            "output":"started",
+            "type": "start"
+        },
+        {
+            "input": "sup?",
+            "output":"ok",
+            "type": "answear"
+        },
+        {
+            "input": "12",
+            "output":"58",
+            "type": "answear"
+        }
+    ]
+}
