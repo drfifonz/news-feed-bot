@@ -21,7 +21,7 @@ class MessengerBot:
         return data
 
     def answear_text_message(self, text: str) -> str:
-        """:>"""
+        """answearing for user command"""
 
         formatted_message = text.lower().strip()
 
@@ -32,7 +32,8 @@ class MessengerBot:
                 return sentence[BOT_TO_USER_OUTPUT]
 
     def process_message(self, payload: dict) -> None:
-        """:>"""
+        """Processing user message. If user message is recognizable send answear """
+
         event = payload["entry"][0]["messaging"]
         sender_id = self.get_sender_id(event)
         for msg in event:
