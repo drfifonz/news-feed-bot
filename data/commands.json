@@ -1,23 +1,28 @@
 {
     "commands":[
         {
-            "input": "siema",
-            "output":" co tam",
+            "input": "test",
+            "output":"testing",
             "type": "answear"
         },
         {
-            "input": "kurwa",
-            "output":" papież by tak nie powiedzial",
+            "input": "help",
+            "output":"Avalible functions: \n test \n start \n sup? \n 12",
             "type": "answear"
         },
         {
-            "input": "zrob go bardziej zoltego",
-            "output":"Tak nie można to ojciec święty",
+            "input": "start",
+            "output":"started",
+            "type": "start"
+        },
+        {
+            "input": "sup?",
+            "output":"ok",
             "type": "answear"
         },
         {
-            "input": "2137",
-            "output":"Pora spać",
+            "input": "12",
+            "output":"58",
             "type": "answear"
         }
     ]
